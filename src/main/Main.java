@@ -27,7 +27,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
-			PrintWriter writer = new PrintWriter(new File("C:/Users/natspence/Desktop/OUTPUT.txt"));
+			PrintWriter writer = new PrintWriter(new File("C:/Users/HAL-2001/Desktop/OUTPUT.txt"));
 			
 			ControllerManager controllers = new ControllerManager();
 			controllers.initSDLGamepad();
@@ -37,7 +37,7 @@ public class Main {
 				float RSY = p1.rightStickY;
 				float LSY = p1.leftStickY;
 				
-				String line = LSY + " X " + RSY;
+				String line = LSY + "";
 				System.out.println(line);
 				writer.println(line);
 				
