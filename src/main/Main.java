@@ -27,7 +27,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
-			PrintWriter writer = new PrintWriter(new File("C:/Users/HAL-2001/Desktop/OUTPUT.txt"));
+			PrintWriter writer = new PrintWriter(new File("C:/Users/HAL-2001/Desktop/INPUT.txt"));
 			
 			ControllerManager controllers = new ControllerManager();
 			controllers.initSDLGamepad();
